@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <title>Blog de Recettes</title>
+</head>
+
+<body>
+    <header>
+        <div class="card-accueil">
+            <img src="images/logo recette.png" alt="">
+            <h1>Le Blog des Délices</h1>
+            
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="recettes.html">Recettes</a>
+        <a href="menu.html">Menu hebdomadaire</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+   <!--caroussel --> 
+   <div class="slideshow-container">
+    <div class="slide active" style="background-image: url('images/crumble-pommes-kakis_12mois.webp');">
+        <div class="slide-content">
+            <h2 class="slide-title">Crumble aux pommes</h2>
+            <button>Découvrir</button>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/ai-generated-9020633_1280.png');">
+        <div class="slide-content">
+            <h2 class="slide-title">Cookies</h2>
+            <button>Découvrir</button>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/italian-cuisine-6903772_1280.jpg');">
+        <div class="slide-content">
+            <h2 class="slide-title">Pizza</h2>
+            <button>Découvrir</button>
+        </div>
+    </div>
+
+    <button class="nav-button prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="nav-button next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+   <!---end caroussel-->
+
+   <!---citation-->
+        <div class="citation">
+            <blockquote><span class="span-citation">"</span>L'apétit vient d'abord par les yeux<span class="span-citation">"</span></blockquote>
+        </div>
+    <!----pleins de vitamines-->
+        <h2>Le plein de vitamine</h2>
+
+        <div class="flex">
+            <img src="images/sharon-pittaway-KUZnfk-2DSQ-unsplash.jpg" class="imagesection">
+            <div class="psection">
+            <h3>Les légumes de saison au mois de janvier</h3>
+            <p class="psection">En janvier, renforcez votre système immunitaire en consommant des fruits et légumes de saison riches en vitamines C. Consommez sans modération agrumes, kiwis, mais aussi carottes, choux, courges, et légumes dits « oubliés ».
+                Ail
+Betterave
+Brocolis
+Carotte
+Céleri branche
+Céleri rave
+Chou blanc
+Chou de Bruxelles
+Chou pommé
+Chou rouge
+Citrouille
+Courge
+Cresson
+Crosne
+Endive
+Mâche
+Navet
+Oignon
+Panais
+Poireau
+Pomme de terre
+Potimarron
+Potiron
+Rutabaga
+Salsifis
+Scarole
+Topimanbour
+            </p>
+        </div>
+        </div>
+
+        <div class="flex">
+            <div class="psection">
+            <h3>Les fruits de saison au mois de janvier</h3>
+            <p class="psection">
+                Châtaigne
+Citron
+Clémentine
+Grenade
+Kiwi
+Mandarine
+Orange
+Pamplemousse
+Poire
+Pomme
+Noix
+            </p>
+        </div>
+            <img src="images/jo-sonn-zeFy-oCUhV8-unsplash.jpg" class="imagesection">
+        </div>
+
+        <!---recette recentes-->
+
+        <h2>Mes recettes préférées</h2>
+        <div class="card-accueil">
+        <article class="recipe-card">
+            <img src="images\image.png" alt="Photo de la recette">
+            <div class="content">
+                <h2>Recette de Tarte aux Pommes</h2>
+                <p>Une délicieuse tarte aux pommes faite maison avec une pâte croustillante et des pommes fondantes.</p>
+                <a href="tarte-pomme.html">Voir la recette</a>
+            </div>
+        </article>
+
+        <article class="recipe-card">
+            <img src="images\lasagne.webp" alt="Photo de la recette">
+            <div class="content">
+                <h2>Les délicieuses lasagnes</h2>
+                <p>Un plat traditionnel italien mais tellement succulent</p>
+                <a href="lasagne.html">Voir la recette</a>
+            </div>
+        </article>
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Le Blog des Délices. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

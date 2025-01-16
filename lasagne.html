@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lasagne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff704d;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .recipe-header h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #ff5733;
+        }
+
+        .recipe-details {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-details div {
+            text-align: center;
+        }
+
+        .ingredients, .steps {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .ingredients h3, .steps h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #ff5733;
+        }
+
+        .ingredients ul, .steps ol {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="card-accueil">
+            <img src="images/logo recette.png" alt="">
+            <h1>Le Blog des Délices</h1>
+            
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="recettes.html">Recettes</a>
+        <a href="menu.html">Menu hebdomadaire</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section class="recipe-header">
+            <img src="images/lasagne.webp" alt="photo de lasagne">
+            <h2>Lasagne à la bolognaise</h2>
+            <p> Fondez pour cette recette de lasagne maison, dont les feuilles de pâte laissent entrevoir une irrésistible farce tomatée au bœuf haché, discrètement adoucie par une onctueuse béchamel. Gentiment gratinée au four et accompagnée d’une belle salade verte (et de quelques bons amis), elle fait briller le soleil au dîner !</p>
+        </section>
+
+        <section class="recipe-details">
+            <div>
+                <strong>Temps de préparation:</strong>
+                <p>20 minutes</p>
+            </div>
+            <div>
+                <strong>Temps de cuisson:</strong>
+                <p>60 minutes</p>
+            </div>
+            <div>
+                <strong>Portions:</strong>
+                <p>6 personnes</p>
+            </div>
+        </section>
+
+        <section class="ingredients">
+            <h3>Ingrédients</h3>
+            <ul>
+                <li>Bœuf haché 300g</li>
+                <li>Pulpe de tomate 800g</li>
+                <li>1 gousse d'ail</li>
+                <li>feuille de lasagne</li>
+                <li>100g de gruyere rapé</li>
+                <li>Béchamel</li>
+            </ul>
+        </section>
+
+        <section class="steps">
+            <h3>Étapes</h3>
+            <ol>
+                <li>Pelez et émincez finement l'oignon et la gousse d'ail. Faites-les revenir à feu doux dans une casserole avec 2 c. à soupe d'huile d'olive jusqu'à ce que l'oignon devienne translucide. Ajoutez la pulpe de tomate, le sucre, les herbes de Provence, le sel et le poivre. Laissez mijoter à feu doux pendant 20 minutes.</li>
+                <li>Pendant que la sauce tomate mijote, faites revenir le bœuf haché dans une poêle avec 2 c. à soupe d'huile d'olive pendant 3 à 5 minutes à feu moyen. Salez, poivrez, puis mélangez-le à la sauce tomate. Laissez mijoter ensemble quelques minutes supplémentaires.</li>
+                <li>Préchauffez le four à 180°C (th.6). Graissez le fond et les parois d’un plat à gratin avec un peu de beurre fondu. Déposez une première couche de feuilles de lasagne, nappez de béchamel, puis ajoutez une couche de garniture à la sauce tomate et au bœuf. Parsemez de gruyère râpé. Répétez l'opération jusqu'à épuisement des ingrédients, en terminant par une couche de béchamel et du parmesan râpé.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Le Blog des Délices. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

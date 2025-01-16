@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipes</title>  
+</head>
+<body>
+    <header>
+        <h1>Le Blog des Délices</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="recettes.html">Recettes</a>
+        <a href="menu.html">Menu hebdomadaire</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-----filtre de recherche-->
+
+    <div class="container">
+        <div class="filter">
+            <input type="text" id="search-recipe" placeholder="Rechercher une recette...">
+            <label for="category-filter">Filtrer par catégorie :</label>
+            <select id="category-filter">
+                <option value="Toutes">Toutes</option>
+                <option value="Entrée">Entrée</option>
+                <option value="Plat principal">Plat principal</option>
+                <option value="Dessert">Dessert</option>
+            </select>
+        </div>
+        <div id="recipe-container">
+            <!-- Les recettes s'afficheront ici -->
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Le Blog des Délices. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

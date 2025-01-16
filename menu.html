@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Hebdomadaire</title>
+</head>
+<body>
+    <header>
+        <h1>Le Blog des Délices</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="recettes.html">Recettes</a>
+        <a href="menu.html">Menu hebdomadaire</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section class="menu-container">
+            <div class="menu-card" onclick="showRecipeMenu('lundi')">
+                <h3>Lundi</h3>
+                <p>Tarte aux Pommes</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('mardi')">
+                <h3>Mardi</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('mercredi')">
+                <h3>Mercredi</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('jeudi')">
+                <h3>Jeudi</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('vendredi')">
+                <h3>Vendredi</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('samedi')">
+                <h3>Samedi</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <div class="menu-card" onclick="showRecipeMenu('dimanche')">
+                <h3>Dimanche</h3>
+                <p>Gâteau au Chocolat</p>
+                <button>Voir la recette</button>
+            </div>
+            <!-- Ajoutez d'autres jours ici -->
+        </section>
+
+        <section id="recipe-detailsMenu">
+            <h3 id="recipe-titleMenu"></h3>
+            <p id="recipe-descriptionMenu"></p>
+            <button onclick="hideRecipeMenu()">Fermer</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Le Blog des Délices. Tous droits réservés.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
